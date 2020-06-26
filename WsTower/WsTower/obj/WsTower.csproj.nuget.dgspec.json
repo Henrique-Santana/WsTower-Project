@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Henrique\\SENAI\\2º sem\\Sprint3- FRONT\\WsTower\\WsTower\\WsTower.csproj": {}
+    "E:\\Henrique\\SENAI\\2º sem\\Sprint3- FRONT\\WsTower-Project\\WsTower\\WsTower\\WsTower.csproj": {}
   },
   "projects": {
-    "E:\\Henrique\\SENAI\\2º sem\\Sprint3- FRONT\\WsTower\\WsTower\\WsTower.csproj": {
+    "E:\\Henrique\\SENAI\\2º sem\\Sprint3- FRONT\\WsTower-Project\\WsTower\\WsTower\\WsTower.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Henrique\\SENAI\\2º sem\\Sprint3- FRONT\\WsTower\\WsTower\\WsTower.csproj",
+        "projectUniqueName": "E:\\Henrique\\SENAI\\2º sem\\Sprint3- FRONT\\WsTower-Project\\WsTower\\WsTower\\WsTower.csproj",
         "projectName": "WsTower",
-        "projectPath": "E:\\Henrique\\SENAI\\2º sem\\Sprint3- FRONT\\WsTower\\WsTower\\WsTower.csproj",
+        "projectPath": "E:\\Henrique\\SENAI\\2º sem\\Sprint3- FRONT\\WsTower-Project\\WsTower\\WsTower\\WsTower.csproj",
         "packagesPath": "C:\\Users\\Henrique\\.nuget\\packages\\",
-        "outputPath": "E:\\Henrique\\SENAI\\2º sem\\Sprint3- FRONT\\WsTower\\WsTower\\obj\\",
+        "outputPath": "E:\\Henrique\\SENAI\\2º sem\\Sprint3- FRONT\\WsTower-Project\\WsTower\\WsTower\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

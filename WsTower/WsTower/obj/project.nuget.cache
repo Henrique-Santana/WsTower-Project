@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fGbmECpfBl3W1JUdMjdyqKq5lpMAWeHdf8psjfRBjZJTWz/SLbs9yzoVmqYUmbFNBr/rqFT08XGTb+XWve+tDQ==",
+  "dgSpecHash": "zN+J/oBSzH6J4/mrMvMx5gkiVk2lPWBh/5daTh/BWKZ1nYXlFEUYESrjOVWHuBxEpvwkjQABJTdlPtWMyxsPXw==",
   "success": true,
-  "projectFilePath": "E:\\Henrique\\SENAI\\2º sem\\Sprint3- FRONT\\WsTower\\WsTower\\WsTower.csproj",
+  "projectFilePath": "E:\\Henrique\\SENAI\\2º sem\\Sprint3- FRONT\\WsTower-Project\\WsTower\\WsTower\\WsTower.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Henrique\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Henrique\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
