@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Campeonato_App_G6.View.Cadastro">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="baseline_person_black_48dp.png"></Image>
+            <Entry Placeholder="Nome"></Entry>
+            <Entry Placeholder="Apelido"></Entry>
+            <Entry Placeholder="Email"></Entry>
+            <Entry Placeholder="Senha" IsPassword ="True"></Entry>
+
+            <StackLayout>
+                <Button Text="Cadastrar-se"
+                        Clicked="btnLogin_Clicked"
+                    BackgroundColor="#00fa9a"></Button>
+                <Button Text="Login"></Button>
+            </StackLayout>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

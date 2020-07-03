@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Campeonato_App_G6.View.Principal">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal" BackgroundColor="Blue">
+
+                <Image 
+                    Source="baseline_menu_white_48dp.png"
+                    WidthRequest="35"
+                    HorizontalOptions="Start"
+                    VerticalOptions="CenterAndExpand"
+                    />
+                <Label 
+                    Text="Principal" 
+                    FontSize="25" 
+                    TextColor="White"
+                    />
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal">
+                <Image
+                    Source="baseline_close_black_48dp.png"
+                    WidthRequest="30"
+                    HorizontalOptions="Start"
+                    VerticalOptions="CenterAndExpand"
+                    />
+                <Label 
+                    Text="08/07/2020"
+                    FontSize="25"
+                    HorizontalOptions="Start"
+                    VerticalOptions="CenterAndExpand"
+                    />
+                <Image
+                    Source="baseline_search_black_48dp.png"
+                    WidthRequest="30"
+                    HorizontalOptions="EndAndExpand"
+                    VerticalOptions="CenterAndExpand"
+                    />
+            </StackLayout>
+            <Image
+                BackgroundColor="Gray"
+                HeightRequest="1"
+                HorizontalOptions="FillAndExpand"
+                />
+
+            <StackLayout Orientation="Horizontal">
+                <Label 
+                    Text="08/07/2020"
+                    FontSize="25"
+                    HorizontalOptions="Start"
+                    VerticalOptions="CenterAndExpand"
+                    Margin="5,-5,0,0"
+                    />
+
+                <Label 
+                    Text="Arena Fonte Nova"
+                    FontSize="25"
+                    HorizontalOptions="EndAndExpand"
+                    VerticalOptions="CenterAndExpand"
+                    Margin="0,-5,0,0"
+                    />
+
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+
+                <Image 
+                    Source="Holanda_Bandeira.jpg"
+                    WidthRequest="90"
+                    HorizontalOptions="StartAndExpand"
+                    VerticalOptions="CenterAndExpand"
+                    Margin="10"
+                    
+                 />
+
+                <Label 
+                    Text="2"
+                    FontSize="40"
+                    HorizontalOptions="Center"
+                    Margin="20,20,20,20"
+                 />
+
+                <Image 
+                    Source="baseline_close_black_48dp.png"
+                    WidthRequest="40"
+                    HorizontalOptions="CenterAndExpand"
+                    Margin="5"
+                />
+
+                <Label 
+                    Text="3"
+                    FontSize="40"
+                    HorizontalOptions="Center"
+                    Margin="20,20,20,20"
+                />
+
+                <Image 
+                    Source="Costarica_Bandeira.jpg"
+                    WidthRequest="100"
+                    HorizontalOptions="EndAndExpand"
+                    VerticalOptions="CenterAndExpand"      
+                    Margin="5"
+                 />
+
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+
+                <Label 
+                    Text="Holanda"
+                    FontSize="25"
+                    HorizontalOptions="StartAndExpand"
+                    Margin="10,-20,10,10"
+                />
+
+                <Label 
+                    Text="1  -  4"
+                    FontSize="25"
+                    HorizontalOptions="CenterAndExpand"
+                    Margin="25,-20,10,10"
+                />
+
+                <Label 
+                    Text="Costa Rica"
+                    FontSize="25"
+                    HorizontalOptions="EndAndExpand"
+                    Margin="10,-20,10,10"
+                />
+
+            </StackLayout>
+
+            <Image
+                BackgroundColor="Gray"
+                HeightRequest="1"
+                HorizontalOptions="FillAndExpand"
+                />
+
+            <StackLayout Orientation="Horizontal">
+                <Label 
+                    Text="08/07/2020"
+                    FontSize="25"
+                    HorizontalOptions="Start"
+                    VerticalOptions="CenterAndExpand"
+                    Margin="5,-5,0,0"
+                    />
+
+                <Label 
+                    Text="Arena Mineirão"
+                    FontSize="25"
+                    HorizontalOptions="EndAndExpand"
+                    VerticalOptions="CenterAndExpand"
+                    Margin="5,-5,0,0"
+                    />
+
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal">
+
+                <Image 
+                    Source="Brasil_Bandeira.jpg"
+                    WidthRequest="90"
+                    HorizontalOptions="StartAndExpand"
+                    VerticalOptions="CenterAndExpand"
+                    Margin="10"
+                    
+                 />
+
+                <Label 
+                    Text="1"
+                    FontSize="40"
+                    HorizontalOptions="Center"
+                    Margin="20,20,20,20"
+                 />
+
+                <Image 
+                    Source="baseline_close_black_48dp.png"
+                    WidthRequest="40"
+                    HorizontalOptions="CenterAndExpand"
+                    Margin="5"
+                />
+
+                <Label 
+                    Text="7"
+                    FontSize="40"
+                    HorizontalOptions="Center"
+                    Margin="20,20,20,20"
+                />
+
+                <Image 
+                    Source="Alemanha_Bandeira.jpg"
+                    WidthRequest="100"
+                    HorizontalOptions="EndAndExpand"
+                    VerticalOptions="CenterAndExpand"      
+                    Margin="5"
+                 />
+
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+
+                <Label 
+                    Text="Brasil"
+                    FontSize="25"
+                    HorizontalOptions="StartAndExpand"
+                    Margin="10,-20,10,10"
+                />
+
+                <Label 
+                    Text="0  -  0"
+                    FontSize="25"
+                    HorizontalOptions="CenterAndExpand"
+                    Margin="50,-20,10,10"
+                />
+
+                <Label 
+                    Text="Alemanha"
+                    FontSize="25"
+                    HorizontalOptions="EndAndExpand"
+                    Margin="10,-20,10,10"
+                />
+
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
