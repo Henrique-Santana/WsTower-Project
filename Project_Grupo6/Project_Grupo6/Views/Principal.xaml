@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Project_Grupo6.Principal" 
+             Title="Principal">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="{StaticResource Azul}">
+
+                <StackLayout  >
+                    <Image Source="Logo.PNG" VerticalOptions="StartAndExpand" BackgroundColor="{StaticResource Azul}" />
+                    <Frame CornerRadius="50" Margin="0" BackgroundColor="{StaticResource Amarelo}">
+                    <Label Margin="0" Text="Se Você está procurando os melhores artigos esportivos da atualidade. Você está no lugar certo!!!!" FontSize="25" TextDecorations="Underline" TextColor="{StaticResource Azul}" BackgroundColor="{StaticResource Amarelo}"></Label>
+                    </Frame>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" >
+                    <Frame CornerRadius="50" Margin="10">
+                        <Image 
+                            Source="camiseta_Personalizada.png"  
+                            WidthRequest="150" 
+                            HorizontalOptions="Center" />
+                        
+                    </Frame>
+
+                    <Label Text="Camisetas dos mais diversos Times de futebol, originais é claro." FontSize="20"  TextColor="{StaticResource Amarelo}" Margin="10,90,10,0" HorizontalOptions="End" ></Label>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" >
+                    <Frame CornerRadius="50" Margin="10">
+                    <Image 
+                        Source="chuteira_adidas_x.jpg"
+                        WidthRequest="150" 
+                        BackgroundColor="{StaticResource Azul}"
+                        />
+                    </Frame>
+                    <Label Text="As chuteiras da atualidade com as melhores tecnologias." FontSize="20"  TextColor="{StaticResource Amarelo}" Margin="10,50,10,0" HorizontalOptions="End" ></Label>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" >
+                    <Frame CornerRadius="50" Margin="10">
+                    <Image 
+                    Source="bola_futebol_Nike_verde.jpg" 
+                    WidthRequest="150" 
+                    BackgroundColor="{StaticResource Azul}"
+                    />
+                    </Frame>
+                    <Label Text="As diversas bolas, de campo, grama, tem até uma que foi usada na copa." FontSize="20"  TextColor="{StaticResource Amarelo}" Margin="10,50,10,0" HorizontalOptions="End" ></Label>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" >
+                    <Frame CornerRadius="50" Margin="10">
+                    <Image 
+                        Source="bone_manchester_united.jpg" 
+                        WidthRequest="150" 
+                        BackgroundColor="{StaticResource Azul}"
+                        />
+                    </Frame>
+                    <Label Text="Bones do seus times preferidos, para proteger seu rosto do sol." FontSize="20"  TextColor="{StaticResource Amarelo}" Margin="10,50,10,0" HorizontalOptions="End" ></Label>
+                </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

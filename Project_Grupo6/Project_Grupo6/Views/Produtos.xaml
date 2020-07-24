@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Project_Grupo6.Produtos" 
+             Title="Produtos">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout BackgroundColor="{StaticResource Azul}">
+
+                
+                <!--<StackLayout>
+                <Label Text="Procurar" FontSize="Medium" TextColor="White"/>
+                
+                <SearchBar x:Name="SearchConteudo" TextChanged="SearchConteudoTextChanged" TextColor="White" />
+                
+                <Grid>
+                    <ListView x:Name="ListaProduto" ItemTapped="ListaProdutoItemTapped" />
+                </Grid>
+            </StackLayout>-->
+
+                <ListView 
+                ItemsSource="{Binding produtos}"
+                HasUnevenRows="true"
+                ItemSelected="OnListViewItemSelected"
+                ItemTapped="OnListViewItemTapped">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                            
+                            <Grid  Margin="5,5,5,10" BackgroundColor="#2A42AD">
+
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+
+                                <Image 
+                                    Grid.RowSpan="2"
+                                   Source="{Binding Image}" BackgroundColor="White"
+                                   Aspect="AspectFill"
+                                   HeightRequest="200"
+                                   WidthRequest="200" 
+                                 />
+
+                                <Label 
+                                    Grid.Column="1" 
+                                    FontSize="20"
+                                    TextColor="{StaticResource Amarelo}" 
+                                    Text="{Binding ProdutName} "
+                                    FontAttributes="Bold"
+                                    LineBreakMode="TailTruncation"
+                                    
+                                 />
+
+                                <Label 
+                                   Grid.Row="1"
+                                   Grid.Column="1" Margin="5,0,0,35"
+                                   Text="FRETE GRATIS" FontSize="20" TextColor="{StaticResource Amarelo}"
+                                   VerticalOptions="Center" 
+                                 />
+
+                                <Label 
+                                   Grid.Row="1"
+                                   Grid.Column="1" Margin="5,0,0,0"
+                                   Text="{Binding Preco}" FontSize="20" TextColor="{StaticResource Amarelo}"
+                                   VerticalOptions="End" 
+                                 />
+
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

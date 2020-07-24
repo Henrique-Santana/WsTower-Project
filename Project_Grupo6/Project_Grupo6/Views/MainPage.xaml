@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Project_Grupo6.MainPage"
+               BackgroundColor="{StaticResource Amarelo}"
+             MasterBehavior="Popover">
+
+    <MasterDetailPage.Master>
+        <ContentPage Padding="10" BackgroundColor="{StaticResource Amarelo}" Title="Master">
+            <StackLayout Margin="5,15,5,5">
+                <Label Text="Menu" FontSize="20" TextColor="{StaticResource Azul}"></Label>
+                <Button Text="Principal" FontSize="21" TextColor="{StaticResource Amarelo}" BackgroundColor="{StaticResource Azul}" Clicked="Button_Clicked">
+                </Button>
+                <Button Text="Produtos" FontSize="21" TextColor="{StaticResource Amarelo}" BackgroundColor="{StaticResource Azul}" Clicked="Button_Clicked_1">
+                </Button>
+                <Button Text="Sobre Nós" FontSize="21" TextColor="{StaticResource Amarelo}" BackgroundColor="{StaticResource Azul}" Clicked="Button_Clicked_2">
+                </Button>
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        <ContentPage Padding="10">
+            <StackLayout Margin="5,30,5,5">
+                <Label Text="Master Detail"></Label>
+            </StackLayout>
+
+        </ContentPage>
+    </MasterDetailPage.Detail>
+
+</MasterDetailPage>

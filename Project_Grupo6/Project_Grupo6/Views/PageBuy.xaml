@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Project_Grupo6.PageBuy" 
+             Title="Compra">
+            
+    <ContentPage.Content>
+        <ScrollView>
+            
+        <StackLayout BackgroundColor="{StaticResource Azul}">
+                <StackLayout>
+                    <Image Source="Logo.PNG"  BackgroundColor="{StaticResource Azul}" WidthRequest="500"/> 
+                </StackLayout>
+
+                <Frame CornerRadius="50" Margin="10,10,10,10">
+                <Image 
+                    
+                Source="{Binding Image}"
+                WidthRequest="400" 
+                 />
+            </Frame>
+
+            <Label 
+                Text="{Binding ProdutName}"
+                FontAttributes="Bold" 
+                FontSize="30"
+                TextColor="{StaticResource Amarelo}"
+                Margin="10"
+              />
+            
+             <Label 
+                 Text="{Binding Preco}"
+                 VerticalOptions="End" 
+                 FontSize="30"
+                TextColor="{StaticResource Amarelo}"
+                 Margin="10"
+              />
+
+                <Button Margin="10" Clicked="OnDisplayAlertQuestionButtonClicked" x:Name="btnComprar" BorderRadius="7" HorizontalOptions="CenterAndExpand" WidthRequest="250" BorderColor="#FFC901" BorderWidth="1" Text="Comprar" BackgroundColor="Transparent" TextColor="#FFC901" FontSize="18" FontAttributes="Bold"/>
+                            
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Project_Grupo6.Views.Sobre">
+    <ContentPage.Content>
+        <ScrollView>
+
+            <StackLayout 
+        Spacing="10"
+        
+                BackgroundColor="{StaticResource Amarelo}">
+
+                <!-- Place new controls here -->
+
+                <Label Text="Sobre" 
+               HorizontalOptions="Center"             
+               TextColor="DarkBlue"              
+               FontSize="35"
+               TextDecorations="Underline"
+               FontFamily="Lobster"/>
+                <StackLayout>
+                    <Label Text= " QUEM SOMOS ?"                         
+                       TextColor="Blue"
+                       FontAttributes="Bold"
+                       FontSize="20"
+                       />
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text = "A empresa Mantos do futebol foi fundada em 2020  com o objetivo de disponibilizar uma ambiente virtual acessível  as pessoas que como você, amam o esporte! Procuramos viabilizar a todos, os melhores artigos esportivos do mercado, distribuindo a todos os locais  do Brasil. "
+                       FontSize="23"
+                           TextColor="{StaticResource Azul}"
+                       FontAttributes="Italic"
+                           Margin="10"/>
+                </StackLayout>
+
+
+
+                <StackLayout>
+                    <Label Text= " O QUE VENDEMOS ?"                         
+                       TextColor="Blue"
+                       FontSize="20"
+                      FontAttributes="Bold"                    
+                       />
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text=" Chuteiras"
+                       TextColor="White"
+                       FontSize="17"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       BackgroundColor="MidnightBlue"
+                        />
+                    <Image
+                        Source="chuteira.png"
+                        WidthRequest="120"
+                        />
+                    <Label Text="Bonés" 
+                       TextColor="White"
+                       FontAttributes="Bold"
+                       FontSize="17"
+                       HorizontalTextAlignment="Center"
+                       BackgroundColor="MidnightBlue"/>
+                    <Image
+                        Source="bone.png"
+                        WidthRequest="120"
+                        />
+                    <Label Text="Camisetas"
+                       TextColor="White"
+                        FontAttributes="Bold"
+                        FontSize="17"
+                        HorizontalTextAlignment="Center"
+                       BackgroundColor="MidnightBlue"/>
+                    <Image 
+                    Source="camiseta.png"
+                    WidthRequest="120"
+                    />
+                    <Label Text="Bolas"
+                       TextColor="White"
+                       FontAttributes="Bold"
+                       FontSize="17"
+                       HorizontalTextAlignment="Center"
+                       BackgroundColor="MidnightBlue"/>
+
+                    <Image Source="bola.png"
+                       WidthRequest="100"                       
+                       />
+                </StackLayout>
+
+
+                <StackLayout
+                Orientation="Horizontal"
+                VerticalOptions="EndAndExpand"
+                Margin="20,0,20,30"
+                BackgroundColor="{StaticResource Amarelo}"
+                >
+                    <StackLayout
+                        BackgroundColor="{StaticResource Amarelo}"
+                    Spacing="20"
+                    HorizontalOptions="StartAndExpand"
+                    >
+                        <Label
+                        Text="Redes Sociais"
+                        
+                        FontAttributes="Italic"  
+                        TextColor="Blue"
+                        FontSize="20"
+                        HorizontalOptions="CenterAndExpand"
+                            BackgroundColor="{StaticResource Amarelo}"
+                        />
+                        <Image
+                        Source="tt.jpg"
+                        WidthRequest="100"
+                            BackgroundColor="{StaticResource Amarelo}"
+                        />
+                    </StackLayout>
+                    <StackLayout
+                        BackgroundColor="{StaticResource Amarelo}"
+                    Spacing="20"
+                    HorizontalOptions="EndAndExpand">
+                        <Label
+                        Text="Localização"
+
+                        TextColor="Blue"
+                        FontAttributes="Italic"                      
+                        FontSize="20"
+                        HorizontalOptions="CenterAndExpand"
+                            BackgroundColor="{StaticResource Amarelo}"
+                        />
+                        <Image
+                        Source="maps.jpg"
+                        WidthRequest="80"
+                            BackgroundColor="{StaticResource Amarelo}"
+                        />
+                    </StackLayout>
+                </StackLayout>
+
+
+
+
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

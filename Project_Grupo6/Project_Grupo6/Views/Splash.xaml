@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Project_Grupo6.Views.Splash">
+    <ContentPage.Content>
+        <StackLayout
+            BackgroundColor="#20284C"
+            Spacing="2"
+            >
+            <Image
+                x:Name="logomantos"
+                Source="Logo.PNG"
+                WidthRequest="400"
+                Margin="0,100,0,0"
+               />
+            <Label
+                x:Name="frase"
+                Text="Feito para você, que ama o esporte !"
+                FontSize="22"
+                FontAttributes="Bold"                
+                TextColor="White" 
+                HorizontalOptions="CenterAndExpand"
+                />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

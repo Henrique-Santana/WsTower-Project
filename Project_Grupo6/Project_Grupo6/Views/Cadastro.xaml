@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Project_Grupo6.Views.Cadastro">
+    <ContentPage.Content>
+        <StackLayout Spacing="20" 
+             Padding="20,0" 
+             VerticalOptions="CenterAndExpand" 
+            >
+            <!-- Place new controls here -->
+            <Image Source="Logo.PNG"/>
+
+            <Entry Placeholder="Nome"
+                   ClearButtonVisibility="WhileEditing"
+                   x:Name="nomeEntry"
+                   FontAttributes="Italic"></Entry>
+            <Entry Placeholder="Email"
+                   ClearButtonVisibility="WhileEditing"
+                   x:Name="emailEntry"
+                   FontAttributes="Italic"></Entry>
+            <Entry Placeholder="Senha" IsPassword ="True"
+                   x:Name="senhaEntry"
+                   ClearButtonVisibility="WhileEditing"
+                   FontAttributes="Italic"></Entry>
+            <StackLayout Orientation="Horizontal" Margin="0,10,0,0">
+                <Label Text="Gravar senha?" TextColor="Black" FontSize="18"/>
+                <Switch x:Name="SalvaSenha_Toggle" IsToggled="True" HorizontalOptions="Start"/>
+            </StackLayout>
+            <StackLayout Spacing="20">
+                <Button Clicked="btnCadastro_Clicked"  FontSize="18" FontAttributes="Bold"  WidthRequest="200" HorizontalOptions="CenterAndExpand" x:Name="btnRegister" Text="CADASTRAR" BackgroundColor="#FFC901" TextColor="White" BorderRadius="10"/>
+            </StackLayout>
+        </StackLayout>
+        
+
+    </ContentPage.Content>
+</ContentPage>

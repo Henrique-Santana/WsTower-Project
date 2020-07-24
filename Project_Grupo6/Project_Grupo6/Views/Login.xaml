@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Project_Grupo6.Views.Login">
+    <ContentPage.Content>
+
+        <StackLayout Spacing="20" 
+             Padding="20,0" 
+             VerticalOptions="CenterAndExpand"
+                     >
+            <StackLayout>
+                <Image Source="Logo.PNG"></Image>
+                    <Label Margin="10" Text="LOGIN" TextColor="Orange" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" FontSize="50"/>
+                    <Entry Placeholder="Nome ou Email Cadastrado"
+                        ClearButtonVisibility="WhileEditing"
+                       x:Name="emailUser"
+                       
+                       FontAttributes="Italic"></Entry>
+                    <Entry Placeholder="Senha"
+                       IsPassword ="True"
+                        x:Name="senhaUser"
+                       ClearButtonVisibility="WhileEditing" 
+                       FontAttributes="Italic"></Entry>
+
+
+                    <StackLayout Spacing="20">
+                    <Button Clicked="btnLogin_Clicked"  WidthRequest="200" HorizontalOptions="CenterAndExpand" x:Name="btnLogin" Text="ENTRAR" BackgroundColor="#FFC901" TextColor="White" FontAttributes="Bold" FontSize="18" BorderRadius="7"/>
+                    <Button Clicked="btnCadastro_Clicked" x:Name="btnCadastro" Text="Cadastre-se" BackgroundColor="Transparent" TextColor="DeepSkyBlue" FontSize="18" FontAttributes="Bold"/>
+                    </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
